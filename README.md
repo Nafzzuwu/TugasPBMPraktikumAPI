@@ -58,12 +58,12 @@ flutter run
 ## Tampilan Aplikasi
 
 <p align="center">
-  <img src="screenshot_login.png" width="250"/>
-  <img src="screenshot_produk.png" width="250"/>
+  <img src="screenshot_login.png" width="220"/>
+  <img src="screenshot_produk.png" width="220"/>
 </p>
 
 <p align="center">
-  <img src="screenshot_detailproduk.png" width="250"/>
-  <img src="screenshot_tambah.png" width="250"/>
-  <img src="screenshot_submit.png" width="250"/>
+  <img src="screenshot_detailproduk.png" width="220"/>
+  <img src="screenshot_tambah.png" width="220"/>
+  <img src="screenshot_submit.png" width="220"/>
 </p>
