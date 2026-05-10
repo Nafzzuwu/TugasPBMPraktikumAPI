@@ -1,16 +1,64 @@
-# tugaspraktikumapi
+# Tugas PBM API
 
-A new Flutter project.
+Aplikasi Flutter untuk tugas praktikum Pemrograman Berbasis Mobile 2026. Aplikasi ini terhubung ke REST API untuk manajemen produk dengan sistem autentikasi berbasis token.
 
-## Getting Started
+## Identitas
 
-This project is a starting point for a Flutter application.
+| | |
+|---|---|
+| Nama | Nafariel Dwi Ambariyono |
+| NIM | 242410102071 |
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Login menggunakan NIM sebagai username dan password
+- Menyimpan token autentikasi secara aman menggunakan `flutter_secure_storage`
+- Menampilkan daftar produk milik akun sendiri
+- Menambahkan produk baru ke dalam katalog
+- Submit tugas beserta link repository GitHub
+- Logout dengan konfirmasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur Project
+
+```
+lib/
+├── main.dart
+├── model/
+│   └── product_model.dart
+├── page/
+│   ├── login.dart
+│   ├── product_list.dart
+│   ├── add_product.dart
+│   └── submit_page.dart
+└── service/
+    └── api_service.dart
+```
+
+## Teknologi
+
+- Flutter
+- Dart
+- REST API — `https://task.itprojects.web.id`
+- Package `http` untuk HTTP request
+- Package `flutter_secure_storage` untuk menyimpan token
+- Package `device_preview` untuk preview tampilan
+
+## Cara Menjalankan
+
+1. Clone repository ini
+2. Jalankan perintah berikut di terminal
+
+```bash
+flutter pub get
+flutter run
+```
+
+3. Login menggunakan NIM masing-masing sebagai username dan password
+
+## Tampilan Aplikasi
+
+![Login](screenshot_login.png)
+![Produk](screenshot_produk.png)
+![Detail Produk](screenshot_detailproduk.png)
+![Tambah Produk](screenshot_tambah.png)
+![Submit](screenshot_submit.png)
