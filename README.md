@@ -2,13 +2,6 @@
 
 Aplikasi Flutter untuk tugas praktikum Pemrograman Berbasis Mobile 2026. Aplikasi ini terhubung ke REST API untuk manajemen produk dengan sistem autentikasi berbasis token.
 
-## Identitas
-
-| | |
-|---|---|
-| Nama | Nafariel Dwi Ambariyono |
-| NIM | 242410102071 |
-
 ## Fitur
 
 - Login menggunakan NIM sebagai username dan password
