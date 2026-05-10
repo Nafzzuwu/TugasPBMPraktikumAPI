@@ -57,8 +57,13 @@ flutter run
 
 ## Tampilan Aplikasi
 
-![Login](screenshot_login.png)
-![Produk](screenshot_produk.png)
-![Detail Produk](screenshot_detailproduk.png)
-![Tambah Produk](screenshot_tambah.png)
-![Submit](screenshot_submit.png)
+<p align="center">
+  <img src="screenshot_login.png" width="250"/>
+  <img src="screenshot_produk.png" width="250"/>
+</p>
+
+<p align="center">
+  <img src="screenshot_detailproduk.png" width="250"/>
+  <img src="screenshot_tambah.png" width="250"/>
+  <img src="screenshot_submit.png" width="250"/>
+</p>
